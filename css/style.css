@@ -1,0 +1,135 @@
+#main{
+	width: 1024px;
+	margin: 0px auto;
+}
+
+#photo{
+	width: 1024px;
+	height: 600px;
+	overflow:hidden;
+	margin: 0px;
+	padding: 0px;
+}
+#float_photo{
+	width: 100000px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#float_photo li{
+	float: left;
+	display: inline;
+}
+
+/*#float_num{
+	position: absolute;
+	bottom: 5px;
+	right: 200px;
+	z-index: 20;
+}
+#float_num li{
+	float: left;
+	display: inline;
+	background: green;
+	font-size: 10px;
+	padding: 5px 10px;
+}
+#prev, #next{
+	position: absolute;
+	background: red;
+	z-index: 20;
+}
+#prev{
+	right: 0px;
+	top: 30px;
+}
+#next{
+	left: 0px;
+	top: 30px;
+}
+*/
+#navi{
+	width: 1024px;
+	height: 50px;
+	background: #5599FF;
+	clear: both;
+	line-height: 50px;
+	margin: 2px 0px 2px 0px;
+}
+#navi ul{
+	
+}
+#navi li{
+	font-size: 20px;
+	padding: 1px 27px;
+	line-height: 20px;
+	display: inline;
+
+}
+#navi a{
+	height:35px;
+}
+#navi a:link, a:visited{
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+	text-decoration:none;
+}
+#navi a:hover{
+	text-decoration:underline;
+	color: #0FF;
+	height: 50px;
+}
+#siderbar{
+	float: left;
+	height: 500px;
+	width: 198px;
+	background: #5599FF;
+	margin-right: 2px;
+}
+#siderbar ul{
+
+}
+#siderbar li{
+	font-size: 15px;
+	padding: 10px 10px;
+}
+
+#siderbar a:link, a:visited{
+	text-decoration: none;
+	border-bottom: none;
+	font-weight: bold;
+	color:#000088; 
+}
+#siderbar a:hover{
+	text-decoration: underline;
+}
+#content{
+	float: left;
+	background: #99FFFF;
+	width: 824px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+.title_content{
+	text-align: center;
+}
+
+.resort_title{
+	text-align: center;
+}
+.resort_time{
+	text-align: center;
+}
+#bottom{
+	border-top: solid black 2px;
+	width: 1024px;
+	height: 100px;
+	clear: both;
+	text-align: center;
+}
+#back{
+	padding: 10px 0px 5px 0px;
+	
+}
